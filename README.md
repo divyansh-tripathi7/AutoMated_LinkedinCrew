@@ -85,22 +85,6 @@ The post will be displayed in the terminal and can be saved for further use.
 
 ## Key Schemas
 
-### `ContentCreatorInfo`
-A Pydantic schema to organize information about the content creator:
-```python
-class ContentCreatorInfo(BaseModel):
-    first_name: Optional[str]
-    last_name: Optional[str]
-    main_topics_covered: Optional[List[str]]
-    bio: Optional[str]
-    email_address: Optional[str]
-    linkedin_url: Optional[str]
-    has_linked_in: Optional[bool]
-    x_url: Optional[str]
-    has_twitter: Optional[bool]
-    has_skool: Optional[bool]
-```
-
 ### `ContentFormatInfo`
 A Pydantic schema for the LinkedIn post structure:
 ```python
